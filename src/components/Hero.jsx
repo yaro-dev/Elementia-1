@@ -156,7 +156,7 @@ const Hero = () => {
                             Lorem ipsum dolor sit amet consectetur adipiscing elit dui aliquam ultrices odio, imperdiet ornare porta tincidunt donec malesuada urna integer pharetra torquent
                         </p>
 
-                        <Button id="watch-trailer" title="Watch Trailer" leftIcon={<TiLocationArrow />}
+                        <Button id="watch-trailer" title="See More" leftIcon={<TiLocationArrow />}
                             containerClass="!bg-yellow-300 flex-center gap-1"></Button>
                     </div>
 
