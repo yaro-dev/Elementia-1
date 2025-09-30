@@ -65,12 +65,13 @@ const Navbar = () => {
           <div className='flex items-center gap-7'>
             <img src='/img/logo.png' alt='logo' className='w-10' />
 
+          
           </div>
 
           <div className='flex h-full items-center'>
             <div className='hidden md:block'>
               {navItems.map((item) => (
-                <a key={item} href={`#${item.toLowerCase()}`} className='nav-hover-btn'>
+                <a key={item} href={`#${item.toLowerCase()}`} className='nav-hover-btn !text-lg'>
                   {item}
                 </a>
               ))}

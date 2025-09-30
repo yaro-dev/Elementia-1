@@ -31,12 +31,12 @@ const Contact = () => {
                 </div>
 
                 <div className='flex flex-col items-center text-center'>
-                    <p className='font-general text-[10px] uppercase'> Join Lux Dawn</p>
+                    <p className='font-general text-base uppercase'> Join Lux Dawn</p>
 
                     <p className='w-[58%] special-font mt-10 font-zentry text-5xl leading-[0.9] md:text-[6rem]'>
                     Nullam in <b>d</b>olor scelerisque<br/>gr<b>a</b>vida tellus a, blandit ante.</p>
 
-                    <Button title="Contact Us" containerClass="mt-10 cursor-pointer"></Button>
+                    <Button title="Contact Us" containerClass="!text-base mt-10 cursor-pointer"></Button>
                 </div>
             </div>
 

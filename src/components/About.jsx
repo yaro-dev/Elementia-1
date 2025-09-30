@@ -30,7 +30,7 @@ const About = () => {
     return (
         <div id='about' className='min-h-screen w-screen'>
             <div className='relative mb-8 mt-36 flex flex-col items-center gap-5'>
-                <h2 className='font-general text-sm uppercase md:text-[10px]'>Welcome to Elementia</h2>
+                <h2 className='font-general !text-base uppercase md:text-[10px]'>Convallis volutpat amet!</h2>
 
                 <AnimatedTitle title="Lorem ipsum <b>c</b>olor sit <b>amet, consectetur adipiscing elit." containerClass="mt-5 !text-black text-center"></AnimatedTitle>
                
